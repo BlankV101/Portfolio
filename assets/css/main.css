@@ -282,7 +282,7 @@ input, select, textarea {
 		overflow-x: auto;
 	}
 
-	.edu-wrapper {
+	.general-wrapper {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 0.9rem;
@@ -294,7 +294,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.075);
 	}
 
-	.edu-wrapper p {
+	.general-wrapper p {
 		margin: 0;
 	}
 

@@ -1,4 +1,4 @@
-#edu-1 {
+.edu-title, .lang {
     display: flex !important;
     justify-content: space-between;
 }
