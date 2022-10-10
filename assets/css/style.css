@@ -2,3 +2,33 @@
     display: flex !important;
     justify-content: space-between;
 }
+
+.inner p {
+    margin: 0;
+}
+
+.inner a {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border: solid 1px #ffffff;
+    border-radius: 4px;
+    padding: 0 1.25rem 0 1.45rem;
+    width: fit-content;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.inner a:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.inner a:active {
+    background-color: rgba(255, 255, 255, 0.175);
+}
