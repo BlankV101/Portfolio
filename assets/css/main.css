@@ -275,12 +275,28 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-		pre code {
-			display: block;
-			line-height: 1.75;
-			padding: 1rem 1.5rem;
-			overflow-x: auto;
-		}
+	pre code {
+		display: block;
+		line-height: 1.75;
+		padding: 1rem 1.5rem;
+		overflow-x: auto;
+	}
+
+	.edu-wrapper {
+		-webkit-overflow-scrolling: touch;
+		font-family: "Source Sans Pro", sans-serif;
+		font-size: 0.9rem;
+		margin: 0 0 2rem 0;
+		display: block;
+		line-height: 1.75;
+		padding: 1rem 1.5rem;
+		overflow-x: auto;
+		background: rgba(255, 255, 255, 0.075);
+	}
+
+	.edu-wrapper p {
+		margin: 0;
+	}
 
 	hr {
 		border: 0;
