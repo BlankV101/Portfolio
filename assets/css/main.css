@@ -1222,6 +1222,10 @@ input, select, textarea {
 		z-index: 3;
 	}
 
+	#wrapper #header nav ul li a{
+		min-width: 145px;
+	}
+
 		#wrapper:before {
 			content: '';
 			display: block;
